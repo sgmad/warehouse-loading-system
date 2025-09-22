@@ -120,7 +120,7 @@ void registerTruck() {
     Truck truck = new Truck(plate, driver); 
     truckQueue.offer(truck);	//truckQueue.offer(truck);
 
-    System.out.println("\nRegistered: " + truck);
+    System.out.println("\nRegistered: " + truck + "\n");
 }
 
 
@@ -222,3 +222,4 @@ public static void main(String[] args) {
 	new WarehouseLoadingSystem().run();
 	}
 }
+
