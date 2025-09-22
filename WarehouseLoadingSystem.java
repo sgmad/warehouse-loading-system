@@ -138,7 +138,7 @@ void viewWaitingTrucks() {
             System.out.println(truck);	//print each truck
         }
 
-        System.out.println("← REAR");	//print "← REAR"
+        System.out.println("← REAR + \n");	//print "← REAR"
     }
 }
 
@@ -162,7 +162,7 @@ void loadNextTruck() {
         //if both not null → print "Loaded: [item] → [truck]"
         System.out.println("\nLoaded: " + item + " → " + truck); 
         System.out.println("Remaining items: " + warehouseStack.size());
-        System.out.println("Remaining trucks waiting: " + truckQueue.size());
+        System.out.println("Remaining trucks waiting: " + truckQueue.size() + "\n");
     }
 }
 
@@ -222,9 +222,3 @@ public static void main(String[] args) {
 	new WarehouseLoadingSystem().run();
 	}
 }
-
-
-
-
-
-
