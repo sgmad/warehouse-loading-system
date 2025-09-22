@@ -46,7 +46,7 @@ void storeItem() {
 
         //Ask for code, name, and quantity
         System.out.print("Enter item code: ");
-        String code = scan.nextLine();
+        String code = scan.next();
         
         scan.nextLine();
 
@@ -109,7 +109,7 @@ void registerTruck() {
 
 	//ask user for plate, driver
     System.out.print("Enter vehicle license plate: ");
-    String plate = scan.nextLine();
+    String plate = scan.next();
     
     scan.nextLine();
 
@@ -222,6 +222,7 @@ public static void main(String[] args) {
 	new WarehouseLoadingSystem().run();
 	}
 }
+
 
 
 
